@@ -49,7 +49,7 @@ function Videos() {
         ))}
       </div>
       <div className="mt-6 grid gap-6 md:grid-cols-2">
-        {COURSES[lang].map((v) => (
+        {(COURSES[lang] ?? []).map((v) => (
           <article key={v.id} className="overflow-hidden rounded-2xl border bg-card shadow-soft">
             <div className="aspect-video">
               <iframe className="h-full w-full" src={`https://www.youtube-nocookie.com/embed/${v.id}`} title={v.title} loading="lazy" allowFullScreen allow="accelerometer; encrypted-media; picture-in-picture" />
