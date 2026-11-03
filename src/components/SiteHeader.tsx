@@ -37,7 +37,6 @@ export function SiteHeader() {
           </span>
           <span className="leading-tight">
             <span className="block font-display text-base font-bold">Sehel Tech</span>
-            <span className="block font-urdu text-xs text-muted-foreground">سہیل ٹیک</span>
           </span>
         </Link>
         <nav className="ml-auto hidden gap-1 md:flex">
