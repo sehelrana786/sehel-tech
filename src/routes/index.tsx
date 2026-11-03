@@ -33,7 +33,6 @@ function Home() {
           <h1 className="mt-4 text-4xl font-extrabold leading-tight md:text-6xl">
             Your AI <span className="text-primary">Programming</span> Mentor
           </h1>
-          <p className="mt-2 font-urdu text-2xl text-muted-foreground" dir="rtl">سہیل ٹیک — کوڈنگ سیکھیں آسانی سے</p>
           <p className="mt-5 max-w-md text-lg text-muted-foreground">
             Learn coding step by step, in your own language, at your own pace.
           </p>
