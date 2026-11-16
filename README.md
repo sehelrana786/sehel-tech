@@ -1,4 +1,4 @@
-Here is your complete, professional `README.md` formatted specifically for GitHub with live badges, clickable preview links, architecture details, and your official contact information:
+
 
 ```markdown
 # 🚀 Sehel Tech — Your AI Programming Mentor
