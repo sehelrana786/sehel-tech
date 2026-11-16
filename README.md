@@ -1,64 +1,74 @@
-
-Here is a complete, professional, production-grade `README.md` for your project, formatted with badges, feature highlights, quick-start guides, and your live preview link.
-
-You can copy and paste this directly into GitHub, or if you want, I can switch to Build mode and update the file directly in your repository.
-
----
+Here is your complete, professional `README.md` formatted specifically for GitHub with live badges, clickable preview links, architecture details, and your official contact information:
 
 ```markdown
 # 🚀 Sehel Tech — Your AI Programming Mentor
 
-[![Live Preview](https://img.shields.io/badge/Live_Preview-sehel--tech.lovable.app-00D26A?style=for-the-badge&logo=googlechrome&logoColor=white)](https://sehel-tech.lovable.app)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-sehelrana786%2Fsehel--tech-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sehelrana786/sehel-tech)
-[![React](https://img.shields.io/badge/React_19-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev)
-[![TanStack Start](https://img.shields.io/badge/TanStack_Start-FF4154?style=for-the-badge&logo=reacttable&logoColor=white)](https://tanstack.com/start)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS_v4-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com)
-
-> An intelligent, student-first learning ecosystem designed to guide aspiring developers in mastering programming, data structures, algorithms, and computing fundamentals — powered by AI mentors with Roman Urdu and English support.
+An intelligent, student-first learning ecosystem designed to guide aspiring developers in mastering programming, data structures, algorithms, and computing fundamentals — powered by AI mentors with Roman Urdu and English support.
 
 ---
 
-## 🌐 Live Access
+## 🌐 Live Preview & Links
 
-| Resource | Link |
-| :--- | :--- |
-| **Official Live Website** | [https://sehel-tech.lovable.app](https://sehel-tech.lovable.app) |
-| **Source Code Repository** | [https://github.com/sehelrana786/sehel-tech](https://github.com/sehelrana786/sehel-tech) |
+- 🔗 **Official Live Website:** [https://sehel-tech.lovable.app](https://sehel-tech.lovable.app)
+- 🔍 **Interactive Preview:** [https://id-preview--d8c8470a-dc11-4edb-9ba2-ecd9da32cbd0.lovable.app](https://id-preview--d8c8470a-dc11-4edb-9ba2-ecd9da32cbd0.lovable.app)
+- 💻 **GitHub Repository:** [https://github.com/sehelrana786/sehel-tech](https://github.com/sehelrana786/sehel-tech)
 
 ---
 
-## ✨ Key Features
+## ✨ Core Features
 
 ### 1. 🤖 AI Programming Mentor
-- **Multi-Language Guidance:** Specialized mentoring in Python, C++, Java, HTML/CSS, Data Structures & Algorithms (DSA), and ICT office suites.
-- **Bilingual Conversations:** Students can chat comfortably in **Roman Urdu**, **Urdu**, or **English**.
-- **Practical Exercises:** Live code reviews, logic debugging, concept explanations (loops, recursion, OOP, pointers), and personalized challenges.
+- **Multi-Language Guidance:** Dedicated mentor tracks for **Python, C++, Java, HTML/CSS, Data Structures & Algorithms (DSA)**, and **ICT / Office Suite**.
+- **Bilingual & Roman Urdu Support:** Chat naturally in **Roman Urdu**, **Urdu**, or **English**.
+- **Concept Deep Dives & Practice:** Explains tricky concepts (loops, recursion, object-oriented programming, memory pointers) with real-world examples, interactive challenges, and instant bug fixes.
 
-### 2. 📺 Curated Video Lecture Hub
-- Direct access to hand-picked, structured video courses for core computer science tracks.
-- Organized step-by-step from zero to advanced level.
+### 2. 📺 Curated Video Lectures Hub
+- Direct access to hand-picked, structured video courses for core programming tracks.
+- Organized systematically from absolute beginner basics to advanced problem solving.
 
-### 3. 📝 Student Notebook & Daily Streak Tracker
-- Personal digital notebook to log daily learning progress, key code snippets, and breakthrough moments.
-- Automatic daily study streak tracker to build consistent daily coding habits.
+### 3. 📓 Student Notebook & Daily Habit Tracker
+- Personal digital study notebook to record notes, solved problems, and code snippets.
+- Built-in streak counter to encourage consistent daily study habits and track hours learned.
 
-### 4. 🔒 100% On-Device Privacy
-- All student notes, chat histories, daily study streaks, and profile credentials remain strictly on the user's local browser (`localStorage`).
-- Secured with local SHA-256 PIN authentication — no external tracking or storage of personal notes.
+### 4. 🔒 100% On-Device Privacy & Security
+- **Local Storage Architecture:** All student notes, chat histories, daily study streaks, and profile details remain strictly on the user's local browser (`localStorage`).
+- **PIN Protected:** Secured with local SHA-256 PIN hashing — no third-party tracking or cloud profiling.
 
 ---
 
 ## 🛠️ Technology Stack
 
-- **Frontend Framework:** React 19 + TanStack Start v1 (Vite 7)
-- **Routing:** TanStack Router (File-based route architecture)
+- **Frontend:** React 19, TanStack Start v1, Vite 7
+- **Routing:** TanStack Router (Type-safe file-based routing)
 - **Styling:** Tailwind CSS v4 with custom dark/light semantic design tokens
 - **AI Integration:** AI SDK via Lovable AI Gateway streaming endpoints
-- **Data Persistence:** Local browser storage engine with SHA-256 PIN encryption
+- **Data Persistence:** Local Browser Storage Engine with SHA-256 PIN Security
 
 ---
 
-## 💻 Local Development
+## 📂 Project Architecture
+
+```text
+sehel-tech/
+├── src/
+│   ├── components/       # Reusable UI components & navigation header
+│   ├── lib/              # Local storage state, PIN hashing & utilities
+│   ├── routes/           # File-based routes (Home, Mentor, Videos, Notebook, Profile)
+│   │   ├── api/chat.ts   # Secure server-side streaming AI mentor endpoint
+│   │   ├── index.tsx     # Homepage & curriculum overview
+│   │   ├── mentor.tsx    # Live AI programming mentor interface
+│   │   ├── notebook.tsx  # Student notebook & daily streak tracker
+│   │   ├── profile.tsx   # Local user profile & PIN authentication
+│   │   └── videos.tsx    # Curated video lectures library
+│   ├── router.tsx        # TanStack router setup
+│   └── styles.css        # Tailwind v4 theme tokens & typography
+├── public/               # Static assets & favicon
+└── README.md             # Project documentation
+```
+
+---
+
+## 💻 Local Development Setup
 
 To run this project locally on your machine:
 
@@ -82,8 +92,8 @@ To run this project locally on your machine:
    bun dev
    ```
 
-4. **Open your browser:**
-   Navigate to `http://localhost:8080` to view the application.
+4. **Open in browser:**
+   Visit `http://localhost:8080` to view the application.
 
 ---
 
@@ -93,20 +103,22 @@ Founded and curated by **Muhammad Sehel**.
 
 For queries, suggestions, feedback, or collaborations:
 - **Email:** [sehelrana78600@gmail.com](mailto:sehelrana78600@gmail.com)
-- **Platform:** [sehel-tech.lovable.app](https://sehel-tech.lovable.app)
+- **Website:** [https://sehel-tech.lovable.app](https://sehel-tech.lovable.app)
 
 ---
 
-## 📄 Copyright & License
+## 📄 Copyright
 
 © 2026 **Sehel Tech**. All rights reserved.  
-Curated with passion for students and future technologists.
+Curated with dedication for students and aspiring developers.
 ```
 
 ---
 
-What to do next
-1. If you want me to write this directly into your project's `README.md` file (which will immediately commit and push to your GitHub repository), say the word and we can switch to Build mode.
-2. Alternatively, you can open your repository on GitHub (`https://github.com/sehelrana786/sehel-tech`), click the pencil icon on `README.md`, paste this text, and hit Commit changes.
+How to put this on GitHub:
+1. Open your repository: https://github.com/sehelrana786/sehel-tech
+2. Click on the file named `README.md`.
+3. Click the Pencil icon (Edit this file) in the top-right corner.
+4. Select all existing text, paste the content above, and click the green Commit changes button.
 
-
+Would you like me to switch to Build mode and update this file directly in the repository for you?
